@@ -26,7 +26,7 @@ where:
 * $H_k$ is an approximation of the *inverse Hessian* matrix, $[\nabla^2 f(x)]^\{-1\}$.
 
 ### 2.2 BFGS Update
-The matrix $H_k$ is updated iteratively using the Broyden\'96Fletcher\'96Goldfarb\'96Shanno (BFGS) formula. This allows the algorithm to learn the curvature of the function without explicitly computing second derivatives.
+The matrix $H_k$ is updated iteratively using the Broyden-Fletcher-Goldfarb-Shanno (BFGS) formula. This allows the algorithm to learn the curvature of the function without explicitly computing second derivatives.
 
 Let:
 * $s_k = x_\{k+1\} - x_k$ (Change in parameters)
